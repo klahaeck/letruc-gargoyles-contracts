@@ -21,8 +21,6 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
     bytes32 public constant UPGRADER_ROLE = keccak256("UPGRADER_ROLE");
     string public baseURI = "https://gargoyles-ui-development.herokuapp.com/gargoyles/api/meta/";
 
-    // mapping(uint256 => address) internal _tokenIdToAddress;
-
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() {
         _disableInitializers();
@@ -68,7 +66,6 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
         _tokenIdCounter.increment();
         _safeMint(to, tokenId);
         _setTokenURI(tokenId, uri);
-        // _tokenIdToAddress[tokenId] = to;
     }
 
     function getTokenIdsByOwner(address _owner) public view returns (uint256[] memory) {
@@ -85,7 +82,6 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
         override(ERC721Upgradeable, ERC721EnumerableUpgradeable)
     {
         super._beforeTokenTransfer(from, to, tokenId);
-        // _tokenIdToAddress[tokenId] = to;
     }
 
     function _authorizeUpgrade(address newImplementation)
@@ -101,7 +97,6 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
         override(ERC721Upgradeable, ERC721URIStorageUpgradeable)
     {
         super._burn(tokenId);
-        // delete _tokenIdToAddress[tokenId];
     }
 
     function tokenURI(uint256 tokenId)
