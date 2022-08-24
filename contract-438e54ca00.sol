@@ -11,7 +11,6 @@ import "@openzeppelin/contracts-upgradeable@4.7.2/proxy/utils/Initializable.sol"
 import "@openzeppelin/contracts-upgradeable@4.7.2/proxy/utils/UUPSUpgradeable.sol";
 import "@openzeppelin/contracts-upgradeable@4.7.2/utils/CountersUpgradeable.sol";
 
-/// @custom:security-contact kla@zsh.email
 contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeable, ERC721URIStorageUpgradeable, PausableUpgradeable, AccessControlUpgradeable, ERC721BurnableUpgradeable, UUPSUpgradeable {
     using CountersUpgradeable for CountersUpgradeable.Counter;
 
