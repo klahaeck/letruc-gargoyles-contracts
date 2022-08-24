@@ -18,7 +18,7 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
     bytes32 public constant MINTER_ROLE = keccak256("MINTER_ROLE");
     CountersUpgradeable.Counter private _tokenIdCounter;
     bytes32 public constant UPGRADER_ROLE = keccak256("UPGRADER_ROLE");
-    string public baseURI = "https://gargoyles-ui-development.herokuapp.com/gargoyles/api/meta/";
+    string public baseURI = "https://lionvault.infura-ipfs.io/ipfs/";
 
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() {
