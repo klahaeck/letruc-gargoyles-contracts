@@ -19,6 +19,7 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
     CountersUpgradeable.Counter private _tokenIdCounter;
     bytes32 public constant UPGRADER_ROLE = keccak256("UPGRADER_ROLE");
     string public baseURI = "https://lionvault.infura-ipfs.io/ipfs/";
+    string public contractMetaURI = "https://lionvault.infura-ipfs.io/ipfs/Qmbxmr81EL6q1ASy8deoTLQJTKcj9nTMQqdy5eTHgrUkKM";
 
     /// @custom:oz-upgrades-unsafe-allow constructor
     constructor() {
@@ -38,6 +39,14 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
         _grantRole(PAUSER_ROLE, msg.sender);
         _grantRole(MINTER_ROLE, msg.sender);
         _grantRole(UPGRADER_ROLE, msg.sender);
+    }
+    
+    function contractURI() public view returns (string memory) {
+        return contractMetaURI;
+    }
+
+    function setContractURI(string memory uri) public onlyRole(DEFAULT_ADMIN_ROLE) {
+        contractMetaURI = uri;
     }
 
     function _baseURI() internal view override returns (string memory) {
