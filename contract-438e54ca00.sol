@@ -27,7 +27,7 @@ contract Gargoyle is Initializable, ERC721Upgradeable, ERC721EnumerableUpgradeab
     }
 
     function initialize() initializer public {
-        __ERC721_init("Gargoyle", "GARG");
+        __ERC721_init("Gargoyles", "GARG");
         __ERC721Enumerable_init();
         __ERC721URIStorage_init();
         __Pausable_init();
