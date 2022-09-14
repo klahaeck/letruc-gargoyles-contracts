@@ -37,10 +37,11 @@ async function main() {
   for (let i = 0; i < airdropTo.length; i++) {
     const { address, tokenUri } = airdropTo[i];
     console.log(`Minting NFT to: ${address} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
-    await nft.safeMint(address, tokenUri);
+    console.log('Waiting 3 blocks for confirmation...');
+    const tx = await nft.safeMint(address, tokenUri);
+    const receipt = await tx.wait(3);
+    console.log(`Your transaction is confirmed, its receipt is: ${receipt.transactionHash}`);
   }
-
-  console.log('It will take few minutes for the transactions to be confirmed');
 }
 
 main().catch((error) => {
