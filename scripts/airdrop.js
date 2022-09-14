@@ -2,11 +2,8 @@
 
 require('dotenv').config();
 const args = require('yargs')
-  .option('mintTo', {
+  .option('data', {
     number: false,
-    string: true
-  })
-  .option('tokenURI', {
     string: true
   })
   .argv;
@@ -30,19 +27,21 @@ const nft = new ethers.Contract(
 );
 
 async function main() {
-  const { mintTo, tokenUri } = args;
-  if (!process.env.HARDHAT_NETWORK || !mintTo || !tokenUri) {
-    throw('Please provide a network, mintTo address, and tokenURI');
+  const { data } = args;
+  if (!process.env.HARDHAT_NETWORK || !data) {
+    throw('Please provide a network and data argument');
   };
-  console.log(`Minting NFT to: ${mintTo} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
-  console.log('Waiting 3 blocks for confirmation...');
-  // console.log(nft);
-  // console.log(ethers.utils.getAddress)
-  nft
-    .safeMint(mintTo, tokenUri)
-    .then((tx) => tx.wait(3))
-    .then((receipt) => console.log(`Your transaction is confirmed, its receipt is: ${receipt.transactionHash}`))
-    .catch((e) => console.log("something went wrong", e));
+
+  console.log('data', data);
+  // console.log(`Minting NFT to: ${mintTo} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
+  // console.log('Waiting 3 blocks for confirmation...');
+  // // console.log(nft);
+  // // console.log(ethers.utils.getAddress)
+  // nft
+  //   .safeMint(process.env.CREATOR_ADDRESS, tokenUri)
+  //   .then((tx) => tx.wait(3))
+  //   .then((receipt) => console.log(`Your transaction is confirmed, its receipt is: ${receipt.transactionHash}`))
+  //   .catch((e) => console.log("something went wrong", e));
 }
 
 main().catch((error) => {
