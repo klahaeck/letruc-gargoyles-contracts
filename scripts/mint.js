@@ -36,8 +36,6 @@ async function main() {
   };
   console.log(`Minting NFT to: ${mintTo} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
   console.log('Waiting 3 blocks for confirmation...');
-  // console.log(nft);
-  // console.log(ethers.utils.getAddress)
   nft
     .safeMint(mintTo, tokenUri)
     .then((tx) => tx.wait(3))
