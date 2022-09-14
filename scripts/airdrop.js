@@ -34,6 +34,11 @@ async function main() {
 
   const airdropTo = require(data);
 
+  airdropTo.forEach((to) => {
+    const { address, tokenUri } = to;
+    if ( !address || !tokenUri ) throw(`Please provide an address and tokenUri for each entry in ${data}`);
+  });
+
   for (let i = 0; i < airdropTo.length; i++) {
     const { address, tokenUri } = airdropTo[i];
     console.log(`Minting NFT to: ${address} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
