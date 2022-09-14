@@ -28,3 +28,11 @@ first you must set your ETH address and the contract address on the appropriate 
 ```shell
 HARDHAT_NETWORK=goerli node scripts/mint.js --mintTo MINTO_ADDRESS_HERE --tokenUri TOKEN_URI_HERE
 ```
+
+To Airdrop NFTs
+first you must set your ETH address and the contract address on the appropriate network in the .env file
+you then must set the addresses and tokenUris in the airdrop_data.json file
+The path to the airdrop_data.json file is set as the --data argument in the command below
+```shell
+HARDHAT_NETWORK=goerli node scripts/airdrop.js --data ./airdrop_data.json
+```

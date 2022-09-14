@@ -32,16 +32,15 @@ async function main() {
     throw('Please provide a network and data argument');
   };
 
-  console.log('data', data);
-  // console.log(`Minting NFT to: ${mintTo} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
-  // console.log('Waiting 3 blocks for confirmation...');
-  // // console.log(nft);
-  // // console.log(ethers.utils.getAddress)
-  // nft
-  //   .safeMint(process.env.CREATOR_ADDRESS, tokenUri)
-  //   .then((tx) => tx.wait(3))
-  //   .then((receipt) => console.log(`Your transaction is confirmed, its receipt is: ${receipt.transactionHash}`))
-  //   .catch((e) => console.log("something went wrong", e));
+  const airdropTo = require(data);
+
+  for (let i = 0; i < airdropTo.length; i++) {
+    const { address, tokenUri } = airdropTo[i];
+    console.log(`Minting NFT to: ${address} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
+    await nft.safeMint(address, tokenUri);
+  }
+
+  console.log('It will take few minutes for the transactions to be confirmed');
 }
 
 main().catch((error) => {
