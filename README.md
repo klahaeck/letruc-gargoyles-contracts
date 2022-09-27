@@ -17,7 +17,7 @@ To Deploy
 npx hardhat run scripts/deploy.js --network goerli
 ```
 
-To Deploy
+To Upgrade
 first you must set the contract address on the appropriate network in the .env file 
 ```shell
 npx hardhat run scripts/upgrade.js --network goerli
