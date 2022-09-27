@@ -1,6 +1,7 @@
 require('dotenv').config();
 require('@openzeppelin/hardhat-upgrades');
 require("@nomicfoundation/hardhat-toolbox");
+require("hardhat-gas-reporter");
 
 task('mint', 'Mints an NFT to an address', async (taskArgs, hre) => {
   const accounts = await hre.ethers.getSigners();
@@ -39,4 +40,8 @@ module.exports = {
       accounts: [process.env.CREATOR_PRIVATE_KEY],
     },
   },
+  gasReporter: {
+    enabled: (process.env.REPORT_GAS) ? true : false,
+    currency: 'USD'
+  }
 };
