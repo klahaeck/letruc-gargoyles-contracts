@@ -34,5 +34,5 @@ first you must set your ETH address and the contract address on the appropriate 
 you then must set the addresses and tokenUris in the airdrop_data.json file
 The path to the airdrop_data.json file is set as the --data argument in the command below
 ```shell
-HARDHAT_NETWORK=goerli node scripts/airdrop.js --data ./airdrop_data.json
+HARDHAT_NETWORK=goerli node scripts/airdrop.js --data ./airdrop_data_core.json
 ```
