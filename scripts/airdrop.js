@@ -35,15 +35,15 @@ async function main() {
   const airdropTo = require(data);
 
   airdropTo.forEach((to) => {
-    const { address, tokenUri } = to;
-    if ( !address || !tokenUri ) throw(`Please provide an address and tokenUri for each entry in ${data}`);
+    const { address, cid } = to;
+    if ( !address || !cid ) throw(`Please provide an address and cid for each entry in ${data}`);
   });
 
   for (let i = 0; i < airdropTo.length; i++) {
-    const { address, tokenUri } = airdropTo[i];
-    console.log(`Minting NFT to: ${address} with URI ${tokenUri} on the ${process.env.HARDHAT_NETWORK} network`);
+    const { address, cid } = airdropTo[i];
+    console.log(`Minting NFT to: ${address} with URI ${cid} on the ${process.env.HARDHAT_NETWORK} network`);
     console.log('Waiting 3 blocks for confirmation...');
-    const tx = await nft.safeMint(address, tokenUri);
+    const tx = await nft.safeMint(address, cid);
     const receipt = await tx.wait(3);
     console.log(`Your transaction is confirmed, its receipt is: ${receipt.transactionHash}`);
   }
