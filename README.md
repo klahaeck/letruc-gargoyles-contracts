@@ -36,3 +36,10 @@ The path to the airdrop_data.json file is set as the --data argument in the comm
 ```shell
 HARDHAT_NETWORK=goerli node scripts/airdrop.js --data ./airdrop_data_core.json
 ```
+
+To set the contract metadata uri
+first you must set your ETH address and the contract address on the appropriate network in the .env file
+The --dataUri argument is the uri to the metadata json file
+```shell
+HARDHAT_NETWORK=goerli node scripts/setContractDataUri.js --dataUri https://lionvault.infura-ipfs.io/ipfs/Qmbxmr81EL6q1ASy8deoTLQJTKcj9nTMQqdy5eTHgrUkKM
+```
