@@ -1,82 +1,82 @@
 [
-  {
-    "name": "Mike Scafidi",
-    "address": "0x6CF6da108f81e8dC3f270Fa93f5755770a590c73",
-    "cid": "QmRhNBtgma4P9LiRG3YpWXrwcdUk5voVVXDTzyjv59Aaw1"
-  },
-  {
-    "name": "Katie Hudson",
-    "address": "0x7eD49B0b0E92D061A603F59eC493Ba0609D62B26",
-    "cid": "QmYnVhjnjcMEp4WtnVX61bBoTgJVhFKD9NQvdN6y48cwen"
-  },
-  {
-    "name": "Howard Blazzard",
-    "address": "0x95f68e5027D4feEE065330e632b38ae0D80cceb2",
-    "cid": "QmRRias27sEarAzjFMBHFPysSmdYpGpxyF7jrfkm8hWU3b"
-  },
-  {
-    "name": "Tim Rich",
-    "address": "0x214C6b1a9486c216904F22507bE40525d45a7A3b",
-    "cid": "QmYhLmnhPNX7ahGDVyLsKj41cgn452ZJKR9okoK88JcnFv"
-  },
-  {
-    "name": "Jessica Berger",
-    "address": "0x545A188fEA4903325782A2BF62e5bdB82Da4fd46",
-    "cid": "QmQRfkYH56VWFKyNKf8RadY4wQyY79EcXjK6pQkAaufEPB"
-  },
-  {
-    "name": "Oded Lavie",
-    "address": "0xb70Ad8fb7fb8F3Ab0751E22db8A9d5D1CC812F54",
-    "cid": "QmfAbARVDeF2wFrKSnchNdrZzY5LbsrBTcUcKXjZoRYREk"
-  },
-  {
-    "name": "Lorena Lima",
-    "address": "0xb84d84019Af5EeBf81b378E98567068dCB9B622b",
-    "cid": "QmXahxQSziaDGa8L6YQTWRq1CommKqbwTZDnkBQwM9i5jo"
-  },
-  {
-    "name": "Christianne Pena",
-    "address": "0xb936EFB6BeFD78BB3815F5ad557F80078E70d956",
-    "cid": "QmekGYs9uRhqFPWNNdmnzXTfceGQycFFjNgxrtHC6PMc4n"
-  },
-  {
-    "name": "Keith Soljacich",
-    "address": "0xb6936f5790cabC64772bc3b15ba9F7Ef73cCbf29",
-    "cid": "QmUAXHiDBCbvLDmgKoKhCNnXZc9nzp1VKhAjx3ebLm3aby"
-  },
-  {
-    "name": "Russell Marsh",
-    "address": "0xcC84fD4653Ec7C59d198185b74c4b97f7814455e",
-    "cid": "QmcKKdkzGYd3m8pKWt3QcFoMEAuV6tzWvhqJkp9uWXZyjy"
-  },
-  {
-    "name": "Rishad Tobaccowala",
-    "address": "0xddA779C9cefff03B8C01332f699b31930AA9a452",
-    "cid": "QmZV2NNTe4oSMfViKvGNtubPjYF4vVQus2MoSvqU439XS5"
-  },
-  {
-    "name": "Rob Davis",
-    "address": "0xEd0F15d484984CF08fcE2D63CEA5a3bD6B637622",
-    "cid": "QmRtQuB38nCoThAk1YaWWeMCryk9QbvLrnsimgzs4VwXME"
-  },
-  {
-    "name": "Kara Buckner",
-    "address": "0xf0B7E0914CDCe72Df872FA97e82908f65041A754",
-    "cid": "QmXZ2NU2gGu3NcHQi3ewgKFTQbHhLmhsf61Wb2FiEfp3vP"
-  },
-  {
-    "name": "Adam Buhler",
-    "address": "0x584b9b42d118aa28f1a12cf60bfc62646b57bcd3",
-    "cid": "QmREJ9vdPhifxzsFccxsPa9YPtwEUmb3L86BT8iwLafNsb"
-  },
-  {
-    "name": "Cristina Lawrence",
-    "address": "0x832427e222441aa23899a8fcfd982d7b12169700",
-    "cid": "QmXnKrDuNubRR2vjarB1E6F6xssois3hhqvZv14k1uVgrB"
-  },
-  {
-    "name": "Eric Campdoras",
-    "address": "0xbe82b4cc72e449bbf6356c06c23f54b40ff67c92",
-    "cid": "QmNz5UCGBJTXyxfsyZ3rqVHuAn7u4pycRgLh7rv1GQuBvX"
-  }
+	{
+		"name": "Mike Scafidi",
+		"address": "0x6CF6da108f81e8dC3f270Fa93f5755770a590c73",
+		"cid": "QmXahxQSziaDGa8L6YQTWRq1CommKqbwTZDnkBQwM9i5jo"
+	},
+	{
+		"name": "Katie Hudson",
+		"address": "0x7eD49B0b0E92D061A603F59eC493Ba0609D62B26",
+		"cid": "QmdfR3nutRdXd7rVsAHV6UBxfe9CPzfjEpr6mTcVpATgYa"
+	},
+	{
+		"name": "Howard Blazzard",
+		"address": "0x95f68e5027D4feEE065330e632b38ae0D80cceb2",
+		"cid": "QmXnKrDuNubRR2vjarB1E6F6xssois3hhqvZv14k1uVgrB"
+	},
+	{
+		"name": "Tim Rich",
+		"address": "0x214C6b1a9486c216904F22507bE40525d45a7A3b",
+		"cid": "QmeFKy9Au4t6atBVDSfBnKsPoUGLks4434Q7zQzk35fkxo"
+	},
+	{
+		"name": "Jessica Berger",
+		"address": "0x545A188fEA4903325782A2BF62e5bdB82Da4fd46",
+		"cid": "QmRBz5wVVDa2aBTqxJc8hZbiDZLNfCdFkXb8WZQkMWGs6W"
+	},
+	{
+		"name": "Oded Lavie",
+		"address": "0xb70Ad8fb7fb8F3Ab0751E22db8A9d5D1CC812F54",
+		"cid": "QmRtQuB38nCoThAk1YaWWeMCryk9QbvLrnsimgzs4VwXME"
+	},
+	{
+		"name": "Lorena Lima",
+		"address": "0xb84d84019Af5EeBf81b378E98567068dCB9B622b",
+		"cid": "QmZJWRnYCjRSDof59ka7pbKyqUvdf2jH6TDevipBQq1DYS"
+	},
+	{
+		"name": "Christianne Pena",
+		"address": "0xb936EFB6BeFD78BB3815F5ad557F80078E70d956",
+		"cid": "QmekGYs9uRhqFPWNNdmnzXTfceGQycFFjNgxrtHC6PMc4n"
+	},
+	{
+		"name": "Keith Soljacich",
+		"address": "0xb6936f5790cabC64772bc3b15ba9F7Ef73cCbf29",
+		"cid": "QmeVkxrMwNt5te2EgyHNqUErF8XUpMrpkmvVjp34bq3JXy"
+	},
+	{
+		"name": "Russell Marsh",
+		"address": "0xcC84fD4653Ec7C59d198185b74c4b97f7814455e",
+		"cid": "QmVA3rPy4VKZQmwJZtpv61iAHDXHjKZXPKT7jhLyCxF1EW"
+	},
+	{
+		"name": "Rishad Tobaccowala",
+		"address": "0xddA779C9cefff03B8C01332f699b31930AA9a452",
+		"cid": "QmQRfkYH56VWFKyNKf8RadY4wQyY79EcXjK6pQkAaufEPB"
+	},
+	{
+		"name": "Rob Davis",
+		"address": "0xEd0F15d484984CF08fcE2D63CEA5a3bD6B637622",
+		"cid": "QmZr4RK2vi4HyXbNaYTosQRDC6nqKk9QCipNMqQ7Mz4ouu"
+	},
+	{
+		"name": "Kara Buckner",
+		"address": "0xf0B7E0914CDCe72Df872FA97e82908f65041A754",
+		"cid": "QmNz5UCGBJTXyxfsyZ3rqVHuAn7u4pycRgLh7rv1GQuBvX"
+	},
+	{
+		"name": "Adam Buhler",
+		"address": "0x584b9b42d118aa28f1a12cf60bfc62646b57bcd3",
+		"cid": "QmRRias27sEarAzjFMBHFPysSmdYpGpxyF7jrfkm8hWU3b"
+	},
+	{
+		"name": "Cristina Lawrence",
+		"address": "0x832427e222441aa23899a8fcfd982d7b12169700",
+		"cid": "QmTtEMz4HYq49vHg3jiXEhUqi3KdFcQ2jYEtjz64o8EPpK"
+	},
+	{
+		"name": "Eric Campdoras",
+		"address": "0xbe82b4cc72e449bbf6356c06c23f54b40ff67c92",
+		"cid": "Qmd3Y3KXeGFvYistpkEzpyRLD12eMPk9FHKiKFsETjF2mY"
+	}
 ]

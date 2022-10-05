@@ -1,32 +1,32 @@
 [
-  {
-    "name": "Matt Marcus",
-    "address": "0xB277774686fB13Ab12326bF1cc3841276874F941",
-    "cid": "QmSp3MbLu7o1Jm6HeRFxvKNhgpavCemZHWpUSseae7PJ1L"
-  },
-  {
-    "name": "Kla Haeck",
-    "address": "0x7dCF97A9D013a939e4E587b77481f73681A5aAc0",
-    "cid": "QmXt6GAqffjTnCemS1kgRJPnuaTpNpKSSeC6LTvQWcE8rE"
-  },
-  {
-    "name": "Gerald MacKenzie",
-    "address": "0xed19217477ee0b9982f9FfF7627Ef789Dd1Ec4EC",
-    "cid": "Qmd3Y3KXeGFvYistpkEzpyRLD12eMPk9FHKiKFsETjF2mY"
-  },
-  {
-    "name": "Matt Moroz",
-    "address": "0xAC7E5020afcA97f430c8e548969c3feD45145d1C",
-    "cid": "QmadMmoMwwm9agkMnEL1cUTK93ARxidHRJPAiH5K7Fz6Ki"
-  },
-  {
-    "name": "Gus Kaechelin",
-    "address": "0x92e123723cfb6269d49418b6b3c61b82ed848f3d",
-    "cid": "Qmb32jEfMyA2ABeeVS9o1JNM99Ve6ia9HvFKbhGBjjqHRp"
-  },
-  {
-    "name": "Chris Outram",
-    "address": "0xDc94c24740fB48b5Db7CBa73DB52d8F853FDd949",
-    "cid": "QmNTzXQTiTj9StEszfiLRgFrZPXvvP1bEirKWhRWH7Nvzr"
-  }
+	{
+		"name": "Matt Marcus",
+		"address": "0xB277774686fB13Ab12326bF1cc3841276874F941",
+		"cid": "QmcKKdkzGYd3m8pKWt3QcFoMEAuV6tzWvhqJkp9uWXZyjy"
+	},
+	{
+		"name": "Kla Haeck",
+		"address": "0x7dCF97A9D013a939e4E587b77481f73681A5aAc0",
+		"cid": "QmPTMG5VkA7E6Xc9iNAGV1aRfriQitousQnLeFQZs99p71"
+	},
+	{
+		"name": "Gerald MacKenzie",
+		"address": "0xed19217477ee0b9982f9FfF7627Ef789Dd1Ec4EC",
+		"cid": "Qmb32jEfMyA2ABeeVS9o1JNM99Ve6ia9HvFKbhGBjjqHRp"
+	},
+	{
+		"name": "Matt Moroz",
+		"address": "0xAC7E5020afcA97f430c8e548969c3feD45145d1C",
+		"cid": "QmadMmoMwwm9agkMnEL1cUTK93ARxidHRJPAiH5K7Fz6Ki"
+	},
+	{
+		"name": "Gus Kaechelin",
+		"address": "0x92e123723cfb6269d49418b6b3c61b82ed848f3d",
+		"cid": "QmZV2NNTe4oSMfViKvGNtubPjYF4vVQus2MoSvqU439XS5"
+	},
+	{
+		"name": "Chris Outram",
+		"address": "0xDc94c24740fB48b5Db7CBa73DB52d8F853FDd949",
+		"cid": "QmYuPbJQgqYjYuJYgLs6vKh2zsfwdoND1oMXWo1r2WbBei"
+	}
 ]
